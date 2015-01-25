@@ -1,0 +1,13 @@
+#! /bin/sh
+
+DOTFILES="$HOME/code/dotfiles"
+
+cd $DOTFILES && git pull
+
+ln -Fs $DOTFILES/aliases $HOME/.aliases
+ln -Fs $DOTFILES/zshrc $HOME/.zshrc
+ln -Fs $DOTFILES/gitconfig $HOME/.gitconfig
+
+cp $DOTFILES/themes/spharian.zsh-theme $HOME/.oh-my-zsh/themes
+
+echo "`tput setaf 2`dotfiles updated successfully!"

@@ -1,0 +1,9 @@
+[user]
+    name = Spharian
+    email = s.fertons@gmail.com
+[core]
+    autocrlf = input
+[push]
+    default = simple
+[credential]
+    helper = osxkeychain
