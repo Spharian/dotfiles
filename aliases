@@ -5,6 +5,11 @@ alias pamr="php artisan migrate:refresh --seed"
 alias pas="php artisan db:seed"
 alias padump="php artisan dump-autoload"
 
+# Symfony
+alias symf="symfony"
+alias symfs="php app/console server:run"
+alias symfstart="php app/console server:run"
+
 # Rails
 alias r="rails"
 
