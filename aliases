@@ -9,6 +9,7 @@ alias padump="php artisan dump-autoload"
 alias symf="symfony"
 alias symfs="php app/console server:run"
 alias symfstart="php app/console server:run"
+alias symfcontroller="php app/console generate:controller --no-interaction --controller=$1"
 
 # Rails
 alias r="rails"
@@ -23,7 +24,7 @@ alias gpush="git push"
 alias gpull="git pull"
 
 # Shell
-alias subl="/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl"
+alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 alias dotfiles="~/code/dotfiles/bin/setup-dotfiles"
 alias cdotfiles="cd ~/code/dotfiles"
 alias cddotfiles="cd ~/code/dotfiles"
