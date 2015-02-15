@@ -9,7 +9,12 @@ alias padump="php artisan dump-autoload"
 alias symf="symfony"
 alias symfs="php app/console server:run"
 alias symfstart="php app/console server:run"
-alias symfcontroller="php app/console generate:controller --no-interaction --controller=$1"
+alias symfdbcreate="php app/console doctrine:database:create"
+alias symfcontroller="php app/console generate:controller --no-interaction --controller="
+alias symfentity="php app/console doctrine:generate:entity"
+alias symfmodel="php app/console doctrine:generate:entity"
+alias symfentities="php app/console doctrine:generate:entities"
+alias symfdbupdate="php app/console doctrine:schema:update --force"
 
 # Rails
 alias r="rails"
