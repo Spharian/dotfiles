@@ -13,8 +13,11 @@ alias symfdbcreate="php app/console doctrine:database:create"
 alias symfcontroller="php app/console generate:controller --no-interaction --controller="
 alias symfentity="php app/console doctrine:generate:entity"
 alias symfmodel="php app/console doctrine:generate:entity"
-alias symfentities="php app/console doctrine:generate:entities"
+alias symfentities="php app/console doctrine:generate:entities --no-backup"
+alias symfdbdrop="php app/console doctrine:database:drop --force"
 alias symfdbupdate="php app/console doctrine:schema:update --force"
+alias symfixtures="php app/console doctrine:fixtures:load"
+alias symffixtures="php app/console doctrine:fixtures:load"
 
 # Rails
 alias r="rails"
