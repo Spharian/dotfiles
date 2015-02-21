@@ -18,6 +18,8 @@ alias symfdbdrop="php app/console doctrine:database:drop --force"
 alias symfdbupdate="php app/console doctrine:schema:update --force"
 alias symfixtures="php app/console doctrine:fixtures:load"
 alias symffixtures="php app/console doctrine:fixtures:load"
+alias symfclearcache="php app/console cache:clear"
+alias symfcc="php app/console cache:clear"
 
 # Rails
 alias r="rails"
