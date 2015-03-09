@@ -25,5 +25,9 @@ PATH=~/.composer/vendor/bin:$PATH
 # Install Pygments (cat syntax highlighter) if needed
 [[ ! -f /usr/local/bin/pygmentize ]] && sudo easy_install Pygments
 
-### Added by the Heroku Toolbelt
+# Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+# rbenv
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
