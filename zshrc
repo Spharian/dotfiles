@@ -21,3 +21,10 @@ export PATH="/Applications/MAMP/bin/php/php5.6.2/bin:/usr/local/bin:/usr/bin:/bi
 
 # Install Pygments (cat syntax highlighter) if needed
 [[ ! -f /usr/local/bin/pygmentize ]] && sudo easy_install Pygments
+
+# Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
+
+# rbenv
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
