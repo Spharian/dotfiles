@@ -19,5 +19,11 @@ fi
 # Use Mamp Pro's PHP version
 export PATH="/Applications/MAMP/bin/php/php5.6.2/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 
+# Global composer commands
+PATH=~/.composer/vendor/bin:$PATH
+
 # Install Pygments (cat syntax highlighter) if needed
 [[ ! -f /usr/local/bin/pygmentize ]] && sudo easy_install Pygments
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
