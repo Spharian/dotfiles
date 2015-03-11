@@ -31,3 +31,6 @@ export PATH="/usr/local/heroku/bin:$PATH"
 # rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
+
+# PostgreSQL
+export PATH="/Applications/Postgres.app/Contents/Versions/9.4/bin:$PATH"
