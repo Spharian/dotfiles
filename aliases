@@ -1,6 +1,6 @@
 # Rails
 alias r="rails"
-alias rs="rails start"
+alias rs="rails s"
 alias b="bundle install"
 
 # rbenv
