@@ -1,5 +1,6 @@
 # Rails
 alias r="rails"
+alias rs="rails start"
 alias b="bundle install"
 
 # rbenv
@@ -47,6 +48,7 @@ alias addalias="subl ~/code/dotfiles/aliases"
 alias hosts="subl /etc/hosts"
 alias cssh="pbcopy < ~/.ssh/id_rsa.pub"
 alias copyssh="pbcopy < ~/.ssh/id_rsa.pub"
+alias vps="ssh root@92.222.14.113"
 
 # Use Mamp's mysql
 alias mysql=/Applications/MAMP/Library/bin/mysql
