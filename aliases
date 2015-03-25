@@ -1,5 +1,9 @@
 # Rails
 alias r="rails"
+alias b="bundle install"
+
+# rbenv
+alias rbgemsets=echo '.gems' > .rbenv-gemsets
 
 # Laravel
 alias art="php artisan"
@@ -41,3 +45,8 @@ alias cddotfiles="cd ~/code/dotfiles"
 alias c="pygmentize -g"
 alias addalias="subl ~/code/dotfiles/aliases"
 alias hosts="subl /etc/hosts"
+alias cssh="pbcopy < ~/.ssh/id_rsa.pub"
+alias copyssh="pbcopy < ~/.ssh/id_rsa.pub"
+
+# Use Mamp's mysql
+alias mysql=/Applications/MAMP/Library/bin/mysql
