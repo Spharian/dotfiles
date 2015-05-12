@@ -43,7 +43,7 @@ alias symfcc="php app/console cache:clear"
 # git
 alias ga="git add"
 alias gaa="git add -A"
-alias gc="git commit -m "
+alias gc="git commit -m"
 alias gs="git status"
 alias gp="git push"
 
