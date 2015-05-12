@@ -13,8 +13,6 @@ alias dump="php artisan dump"
 alias t="phpunit"
 alias d-a="composer dump-autoload"
 
-alias pserve="open http://localhost:8000 && python -m SimpleHTTPServer"
-
 # Laravel's Generators Package
 alias g:m="php artisan generate:model"
 alias g:c="php artisan generate:controller"
@@ -57,6 +55,7 @@ alias hosts="subl /etc/hosts"
 alias cssh="pbcopy < ~/.ssh/id_rsa.pub"
 alias copyssh="pbcopy < ~/.ssh/id_rsa.pub"
 alias vps="ssh root@92.222.14.113"
+alias pserve="open http://localhost:8000 && php -S localhost:8000"
 
 # Use Mamp's mysql
 alias mysql=/Applications/MAMP/Library/bin/mysql
