@@ -4,9 +4,6 @@ alias rs="rails s"
 alias b="bundle install"
 # alias t="bundle exec rspec"
 
-# rbenv
-alias rbgemsets=echo '.gems' > .rbenv-gemsets
-
 # Laravel
 alias artisan="php artisan"
 alias migrate="php artisan migrate --seed"
@@ -15,6 +12,8 @@ alias serve="php artisan serve"
 alias dump="php artisan dump"
 alias t="phpunit"
 alias d-a="composer dump-autoload"
+
+alias pserve="open http://localhost:8000 && python -m SimpleHTTPServer"
 
 # Laravel's Generators Package
 alias g:m="php artisan generate:model"
