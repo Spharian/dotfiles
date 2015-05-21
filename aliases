@@ -14,12 +14,12 @@ alias t="phpunit"
 alias d-a="composer dump-autoload"
 
 # Laravel's Generators Package
-alias g:m="php artisan generate:model"
-alias g:c="php artisan generate:controller"
-alias g:v="php artisan generate:view"
-alias g:s="php artisan generate:seed"
-alias g:mig="php artisan generate:migration"
-alias g:r="php artisan generate:resource"
+alias g:m="php artisan make:model"
+alias g:c="php artisan make:controller"
+alias g:v="php artisan make:view"
+alias g:s="php artisan make:seed"
+alias g:mig="php artisan make:migration"
+alias g:r="php artisan make:resource"
 
 # Symfony
 alias symf="symfony"
