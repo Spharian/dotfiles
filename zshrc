@@ -34,3 +34,5 @@ eval "$(rbenv init -)"
 
 # PostgreSQL
 export PATH="/Applications/Postgres.app/Contents/Versions/9.4/bin:$PATH"
+
+ulimit -n 2560
