@@ -22,6 +22,7 @@ alias pserve="open http://localhost:8000 && php -S localhost:8000"
 alias update-dotfiles="~/Documents/Code/Repositories/dotfiles/bin/setup-dotfiles"
 
 # Repositories
+alias repos="~/Documents/Code/Repositories"
 alias dotfiles="~/Documents/Code/Repositories/dotfiles"
 alias dominia="~/Documents/Code/Repositories/dominia"
 alias foliokevin="~/Documents/Code/Repositories/folio-kevin"
