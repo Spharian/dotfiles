@@ -19,6 +19,7 @@ alias gp="git push"
 # Shell
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 alias pserve="open http://localhost:8000 && php -S localhost:8000"
+alias update-dotfiles="~/Documents/Code/Repositories/dotfiles/bin/setup-dotfiles"
 
 # Repositories
 alias dotfiles="~/Documents/Code/Repositories/dotfiles"

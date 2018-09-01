@@ -10,4 +10,4 @@ $ cd ~/Documents/Code/Repositories/dotfiles && bin/setup-dotfiles
 
 ## Updating
 
-Run ``dotfiles`` from anywhere.
+Run ``update-dotfiles`` from anywhere.
