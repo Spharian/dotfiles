@@ -1,9 +1,9 @@
 # ZSH
 export ZSH=$HOME/.oh-my-zsh
-ZSH_THEME="spharian"
+ZSH_THEME="robbyrussell"
 DISABLE_LS_COLORS="true"
 
-plugins=(git z)
+plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -28,8 +28,5 @@ eval "$(rbenv init -)"
 
 # PostgreSQL
 export PATH="/Applications/Postgres.app/Contents/Versions/9.4/bin:$PATH"
-
-# Use Mamp Pro's PHP version
-export PATH="/Applications/MAMP/bin/php/php5.6.2/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 
 ulimit -n 2560

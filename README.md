@@ -4,8 +4,8 @@
 
 ```shell
 $ curl -L http://install.ohmyz.sh | sh
-$ git clone https://github.com/Spharian/dotfiles.git ~/code/dotfiles
-$ cd ~/code/dotfiles && bin/setup-dotfiles
+$ git clone https://github.com/Spharian/dotfiles.git ~/Documents/Code/Repositories/dotfiles
+$ cd ~/Documents/Code/Repositories/dotfiles && bin/setup-dotfiles
 ```
 
 ## Updating

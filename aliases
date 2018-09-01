@@ -6,36 +6,8 @@ alias b="bundle install"
 
 # Laravel
 alias artisan="php artisan"
-alias migrate="php artisan migrate --seed"
-alias seed="php artisan db:seed"
 alias serve="php artisan serve"
-alias dump="php artisan dump"
 alias t="phpunit"
-alias d-a="composer dump-autoload"
-
-# Laravel's Generators Package
-alias g:m="php artisan make:model"
-alias g:c="php artisan make:controller"
-alias g:v="php artisan make:view"
-alias g:s="php artisan make:seed"
-alias g:mig="php artisan make:migration"
-alias g:r="php artisan make:resource"
-
-# Symfony
-alias symf="symfony"
-alias symfs="php app/console server:run"
-alias symfstart="php app/console server:run"
-alias symfdbcreate="php app/console doctrine:database:create"
-alias symfcontroller="php app/console generate:controller --no-interaction --controller="
-alias symfentity="php app/console doctrine:generate:entity"
-alias symfmodel="php app/console doctrine:generate:entity"
-alias symfentities="php app/console doctrine:generate:entities --no-backup"
-alias symfdbdrop="php app/console doctrine:database:drop --force"
-alias symfdbupdate="php app/console doctrine:schema:update --force"
-alias symfixtures="php app/console doctrine:fixtures:load"
-alias symffixtures="php app/console doctrine:fixtures:load"
-alias symfclearcache="php app/console cache:clear"
-alias symfcc="php app/console cache:clear"
 
 # git
 alias ga="git add"
@@ -46,16 +18,9 @@ alias gp="git push"
 
 # Shell
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
-alias dotfiles="~/code/dotfiles/bin/setup-dotfiles"
-alias cdotfiles="cd ~/code/dotfiles"
-alias cddotfiles="cd ~/code/dotfiles"
-alias c="pygmentize -g"
-alias addalias="subl ~/code/dotfiles/aliases"
-alias hosts="subl /etc/hosts"
-alias cssh="pbcopy < ~/.ssh/id_rsa.pub"
-alias copyssh="pbcopy < ~/.ssh/id_rsa.pub"
-alias vps="ssh root@92.222.14.113"
 alias pserve="open http://localhost:8000 && php -S localhost:8000"
 
-# Use Mamp's mysql
-alias mysql=/Applications/MAMP/Library/bin/mysql
+# Repositories
+alias dotfiles="~/Documents/Code/Repositories/dotfiles"
+alias dominia="~/Documents/Code/Repositories/dominia"
+alias foliokevin="~/Documents/Code/Repositories/folio-kevin"

@@ -1,6 +1,6 @@
 #! /bin/sh
 
-DOTFILES="$HOME/code/dotfiles"
+DOTFILES="$HOME/Documents/Code/Repositories/dotfiles"
 
 cd $DOTFILES && git pull
 
